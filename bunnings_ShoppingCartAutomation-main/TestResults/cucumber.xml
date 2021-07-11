@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="47.538539">
+<testcase classname="Search Add Hammer to Shopping Cart" name="Search and Add 1 Hammer item to shopping cart" time="17.476065">
+<system-out><![CDATA[Given user navigates to bunnings website "https://bunnings.com.au"..........passed
+Then search for the item "Hammer" and click Search button...................passed
+Then Add the first item from the search to the Cart.........................passed
+And Click Review and Checkout in the search results page....................passed
+Then Verify whether the same product is added in the Review Cart page.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Add Hammer to Shopping Cart" name="Search and Add 2 Hammer items to shopping cart" time="15.374175">
+<system-out><![CDATA[Given user navigates to bunnings website "https://bunnings.com.au"..........passed
+Then search for the item "Hammer" and click Search button...................passed
+Then Add 2 quantities of the first item from the search to the Cart.........passed
+And Click Review and Checkout in the search results page....................passed
+Then Verify whether the same product is added in the Review Cart page.......passed
+Then Verify whether the selected quantity is the same.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Add Hammer to Shopping Cart" name="Search and Add 2 Hammer items and reduce 1 quantity in Review Cart page" time="14.688299">
+<system-out><![CDATA[Given user navigates to bunnings website "https://bunnings.com.au"..........passed
+Then search for the item "Hammer" and click Search button...................passed
+Then Add 2 quantities of the first item from the search to the Cart.........passed
+And Click Review and Checkout in the search results page....................passed
+Then Verify whether the same product is added in the Review Cart page.......passed
+Then Verify we can able to reduce the count by 1 in the Review Cart page....passed
+]]></system-out>
+</testcase>
+</testsuite>
